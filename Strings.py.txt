@@ -1,0 +1,9 @@
+print('hello\'s world')
+a = "He's a good guy"
+print (a)
+print('she\'s is \"pretty\"')
+X = input('Enter your value:')
+print(X + " the hero")
+
+
+
