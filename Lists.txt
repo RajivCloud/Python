@@ -1,0 +1,56 @@
+List_names = ["Mike", "John", "chiru"]
+print(List_names[2])
+if List_names[2]=="chiru":
+  print("You are in Loop")
+else:
+  print("You are out of the loop")
+
+ 
+#List Operations
+numbers = [1,1,1,1]
+if numbers[3]==1:  
+  print(numbers)
+
+#List Functions - append, len, insert, index
+fruits = ["apple","banana","guava"]
+fruits.append("grapes")
+print(fruits)
+print(len(fruits))
+if (len(fruits)) >= 4:
+  fruits.insert(1,"tomato")
+  print(fruits)
+  print(fruits.index("tomato"))
+
+#range function
+digits = list(range(1,10))
+print(digits)
+
+#range function 3 parameters
+params = list(range(1,50,3))
+print(params)
+
+
+fruits1 = ["apple","banana"]
+print(fruits1[1])
+fruits1.insert(2,"grapes")
+#print(fruits)
+if (len(fruits1)>=4):
+    print("Fruits are more")
+    fruits1.insert(3,"sapota")
+    print(fruits1)
+else:
+    print("Fruits are less")
+    print(fruits1.append("cherry"))
+    print(fruits1)
+
+
+#List Example
+fruits = ["Apple", "Mango", "Orange"]
+print(fruits)
+print(fruits[0])
+print(fruits[1])
+if (fruits[0] == "Apple"):
+  fruits[0] = "Peach"
+  print(fruits[0])
+  print(fruits)
+
