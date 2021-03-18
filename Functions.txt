@@ -1,0 +1,21 @@
+def add(a,b):
+  print(a+b)
+add(100,200)
+add(230,450)
+
+#Make function to return a value
+def add(b,c):
+  d=b+c
+  return(d)
+result = add(1000,20000)
+print(result)
+
+#Make a function call from a function
+def add(b, d):
+  return b + d
+
+def square(c):
+  return c * c
+
+result = square(add(9,9))
+print(result)
