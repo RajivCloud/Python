@@ -1,0 +1,18 @@
+age = int(input('Enter your age'))
+if age>18:
+  print('You are an adult')
+else:
+  print('You are kid')
+print(age)
+
+marks = int(input("Enter your marks"))
+if marks==35:
+  print("You are Passed")
+elif marks>=50:
+  print("Achieved Grade C")
+elif marks>=70:
+  print("Achieved Grade B")
+elif marks>=90:
+  print("Achieved Grade A")
+elif marks<35:
+  print("Failed")
